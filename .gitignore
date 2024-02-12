@@ -2,6 +2,40 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
+
+# Ignore files with extension `.class` & `.sm`
+*.class
+*.sm
+*.meta
+
+# Ignore `bin` dir
+bin/
+# or
+*/bin/*
+
+# Unignore all `.jar` in `bin` dir
+!*/bin/*.jar
+
+# Ignore all `library.jar` in `bin` dir
+*/bin/library.jar
+
+# Ignore a file with extension
+relative/path/to/dir/filename.extension
+
+# Ignore a file without extension
+relative/path/to/dir/anotherfile
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -48,9 +82,11 @@ ExportedObj/
 *.VC.db
 
 # Unity3D generated meta files
+*.meta
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -60,6 +96,7 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
+*.dylib
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -70,3 +107,5 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Game Area Test/Library/PackageCache/com.unity.render-pipelines.high-definition@14.0.8/Samples~/VolumetricSamples/Fog Volume Shadergraph/Procedural Noises/Tiling Gradient Noise 3D.shadersubgraph.meta
+Game Area Test/Library/PackageCache/com.unity.render-pipelines.high-definition@14.0.8/Samples~/VolumetricSamples/Fog Volume Shadergraph/Procedural Noises/Tiling Gradient Noise 3D.shadersubgraph.meta
