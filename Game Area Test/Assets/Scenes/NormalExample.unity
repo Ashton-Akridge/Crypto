@@ -1870,6 +1870,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chest Interactions
       objectReference: {fileID: 0}
+    - target: {fileID: 3190615001244438385, guid: dfc95a06262af7a45a6edfc6f5d25cf1, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3190615001244438385, guid: dfc95a06262af7a45a6edfc6f5d25cf1, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5201248490858925195, guid: dfc95a06262af7a45a6edfc6f5d25cf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.19804764

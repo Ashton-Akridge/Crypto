@@ -1,0 +1,565 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16051 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/AshtonAkridge/Documents/GitHub/Crypto/Game Area Test
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+37062
+Successfully changed project path to: C:/Users/AshtonAkridge/Documents/GitHub/Crypto/Game Area Test
+C:/Users/AshtonAkridge/Documents/GitHub/Crypto/Game Area Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32856] Host "[IP] 192.168.61.1 [Port] 0 [Flags] 2 [Guid] 3573331596 [EditorId] 3573331596 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-6D9IBGKE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32856] Host "[IP] 192.168.61.1 [Port] 0 [Flags] 2 [Guid] 3573331596 [EditorId] 3573331596 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-6D9IBGKE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 25.38 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/AshtonAkridge/Documents/GitHub/Crypto/Game Area Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA RTX A1000 Laptop GPU (ID=0x25b9)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3770
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005885 seconds.
+- Loaded All Assemblies, in  0.325 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.223 seconds
+Domain Reload Profiling: 547ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (223ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\AshtonAkridge\Documents\GitHub\Crypto\Game Area Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AshtonAkridge\Documents\GitHub\Crypto\Game Area Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.812 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.781 seconds
+Domain Reload Profiling: 1591ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (605ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (782ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.34 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 260 unused Assets / (14.0 MB). Loaded Objects now: 8413.
+Memory consumption went from 347.1 MB to 333.2 MB.
+Total: 6.692600 ms (FindLiveObjects: 0.544200 ms CreateObjectMapping: 0.434700 ms MarkObjects: 3.285600 ms  DeleteObjects: 2.426400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 358244.572011 seconds.
+  path: Assets/Scenes/example.unity
+  artifactKey: Guid(6c9792811fb08fb4882e17eb56f4bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/example.unity using Guid(6c9792811fb08fb4882e17eb56f4bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41a3e4b8cda543b19d4ef8c07d632b3') in 0.002875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 87.038561 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Cloth_1.mat
+  artifactKey: Guid(ba62c7efb15c1bf4883c6d0a0b3854c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Cloth_1.mat using Guid(ba62c7efb15c1bf4883c6d0a0b3854c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f04774fbff169d7030841f99602d53') in 0.166402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_2.mat
+  artifactKey: Guid(d2ff012a3605d7b43a63b985f28c0e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_2.mat using Guid(d2ff012a3605d7b43a63b985f28c0e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ceb8c7ba8852fcc9ef6f70a28e25cc') in 0.036994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Wood_0.mat
+  artifactKey: Guid(229c0aafe025bfc459086fa0e1971c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Wood_0.mat using Guid(229c0aafe025bfc459086fa0e1971c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6209bc96ac98ff85d58a767c3c46c90c') in 0.029362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/ground_1.mat
+  artifactKey: Guid(f6d81c8a1fd46e14baa333b8eb9abd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/ground_1.mat using Guid(f6d81c8a1fd46e14baa333b8eb9abd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b09499a26fb3353bf926836d4f49100') in 0.022233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Cloth_3.mat
+  artifactKey: Guid(b723b9fcb54e15946a7518a703a4ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Cloth_3.mat using Guid(b723b9fcb54e15946a7518a703a4ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3900460b2b693c6e79155533c8db6b2') in 0.020960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Cloth_5.mat
+  artifactKey: Guid(ba57298d5e206fd47a5a957626b7f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Cloth_5.mat using Guid(ba57298d5e206fd47a5a957626b7f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409c1a20951a7437927020a5a59c316d') in 0.017662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Metal_0.mat
+  artifactKey: Guid(df4b977bfd1cf0d4d8d1cdf38dea0f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Metal_0.mat using Guid(df4b977bfd1cf0d4d8d1cdf38dea0f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880ed37f1f859c13469c0315eb1fb912') in 0.020036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Cloth_4.mat
+  artifactKey: Guid(bfbca9508687d8841a4877d79d449446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Cloth_4.mat using Guid(bfbca9508687d8841a4877d79d449446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8ce4341481eb463939afb5ba9cf339') in 0.022131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Wall_1.mat
+  artifactKey: Guid(de430443e6642a54a8a7706118bac4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Wall_1.mat using Guid(de430443e6642a54a8a7706118bac4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627bef2efe49549c617c2aabbc9acf95') in 0.019368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_0.mat
+  artifactKey: Guid(bc7fb89fae30cd244982e5e30ca1008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_0.mat using Guid(bc7fb89fae30cd244982e5e30ca1008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f01739d4884e8b7b650a0ad6a0b2351') in 0.019346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_3.mat
+  artifactKey: Guid(47944b8739ba57145be71397da04b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Unique_Buildings/Materials/Roof_3.mat using Guid(47944b8739ba57145be71397da04b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a8ac699b6a32292a8c1b500d0eb4ec') in 0.024742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 50.730703 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/boat_01.FBX
+  artifactKey: Guid(f01c51099a9686f4a9405d4e7e5cb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/boat_01.FBX using Guid(f01c51099a9686f4a9405d4e7e5cb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42cdf563782930c6a2b7998578048be') in 0.058930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_short.FBX
+  artifactKey: Guid(cf9fcbc355b79ae47bc70dbad233c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_a_short.FBX using Guid(cf9fcbc355b79ae47bc70dbad233c243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59533118052638edb2b2fc17c8c9606') in 0.043491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b.FBX
+  artifactKey: Guid(77758a36f9effc64aa9052cd6edca9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b.FBX using Guid(77758a36f9effc64aa9052cd6edca9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54de12310df17b3822710483466fc40') in 0.034172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/fence.FBX
+  artifactKey: Guid(25e83317ecd131f4cb6e236d365393ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/fence.FBX using Guid(25e83317ecd131f4cb6e236d365393ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ff91fecccef6f740a1941e4165fa94') in 0.033339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/fountain_a.FBX
+  artifactKey: Guid(e23e514ed6a52a64184507a15e7f6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/fountain_a.FBX using Guid(e23e514ed6a52a64184507a15e7f6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aa9ea5a43ba981b129803f6b01ac9b') in 0.050614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b_stairs.FBX
+  artifactKey: Guid(7b9d4603340e77c419de7ae56d9762a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Props/port_wooden_bridge_b_stairs.FBX using Guid(7b9d4603340e77c419de7ae56d9762a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e440dddcc47b21bd14cf78f0987c37d2') in 0.026192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.075334 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Terrain/cliff_04.FBX
+  artifactKey: Guid(1a91fefe32e1b3442a68f5dc4467843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Terrain/cliff_04.FBX using Guid(1a91fefe32e1b3442a68f5dc4467843b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553346828ea3888a7559861fdde99f73') in 0.029278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Terrain/terrain_08.FBX
+  artifactKey: Guid(d608be1e2b9bc414a85c73962cce15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Terrain/terrain_08.FBX using Guid(d608be1e2b9bc414a85c73962cce15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b03fa4a97775ed6d8179893beaf51a') in 0.023922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Terrain/terrain_07.FBX
+  artifactKey: Guid(e3b45fbe52bf09d4a85de5441bf314cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Terrain/terrain_07.FBX using Guid(e3b45fbe52bf09d4a85de5441bf314cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1728896b5a7e3b7a106f9834b579ae15') in 0.025466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Terrain/sky.FBX
+  artifactKey: Guid(a75fef1c44a85de47ac92b42d3c5aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Terrain/sky.FBX using Guid(a75fef1c44a85de47ac92b42d3c5aed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc9a81e82c4883168a66d6facecb9c0') in 0.027012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Terrain/snow_mountain.FBX
+  artifactKey: Guid(7ba128a992dab8545af9ad5db7dd88fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Terrain/snow_mountain.FBX using Guid(7ba128a992dab8545af9ad5db7dd88fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8d836b507f12b32cbae4dcdaa7c00f') in 0.050229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.086765 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Trees/dead_tree_d.FBX
+  artifactKey: Guid(3cb8651402fbc084288738641c37d0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Trees/dead_tree_d.FBX using Guid(3cb8651402fbc084288738641c37d0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbe86c53f5c6d3ca0bafb1f18584b84') in 0.033339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Trees/dead_tree_g.FBX
+  artifactKey: Guid(c4d0f75eacac57d4bb44f4cfee5a32f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Trees/dead_tree_g.FBX using Guid(c4d0f75eacac57d4bb44f4cfee5a32f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04504ddbfe72a9030eb63ed176dd6a38') in 0.032184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Trees/dead_tree_h.FBX
+  artifactKey: Guid(5059854a7bd010f4d85294df4b83f524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Trees/dead_tree_h.FBX using Guid(5059854a7bd010f4d85294df4b83f524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fb11482093ef52ddf4f12e6ff84293') in 0.027214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.945949 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_bridge_1_a.FBX
+  artifactKey: Guid(6301017ec6a068d40911dcad0721ef50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_bridge_1_a.FBX using Guid(6301017ec6a068d40911dcad0721ef50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87a8012f548a13675f16e82984e4dfb') in 0.054516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_28.FBX
+  artifactKey: Guid(c00149a22995e7545be9a600777e16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_28.FBX using Guid(c00149a22995e7545be9a600777e16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc60735942d1d16ee7f97e9a20cd3e07') in 0.077535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_07.FBX
+  artifactKey: Guid(a641aae5de248b046a23e16e67d2010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_07.FBX using Guid(a641aae5de248b046a23e16e67d2010a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd3cd698ec06502146b8903126e588f') in 0.055514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_02.FBX
+  artifactKey: Guid(2ef178336968eb34b83722fdf4d77e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_02.FBX using Guid(2ef178336968eb34b83722fdf4d77e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8eba178409333122bfb8fc07d719e5') in 0.032947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_bridge_3_a.FBX
+  artifactKey: Guid(32f38ec2110c6cb44803a6e1cd2471d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_bridge_3_a.FBX using Guid(32f38ec2110c6cb44803a6e1cd2471d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dfd2de461f045bcb926512c3822727') in 0.040840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_30_d.FBX
+  artifactKey: Guid(b5bc43b8452524d4da0f2a122c75fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_30_d.FBX using Guid(b5bc43b8452524d4da0f2a122c75fdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafc2541a352716aac7d03015221405e') in 0.040871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_bridge_2_b.FBX
+  artifactKey: Guid(6ab0d11cdb825204eb30f9fe6bb0e339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_bridge_2_b.FBX using Guid(6ab0d11cdb825204eb30f9fe6bb0e339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c356d90938d5fe3b9cc097b28ed5113') in 0.033977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_06.FBX
+  artifactKey: Guid(0ae1f14bfd70fe44c9b4708bdd0e6a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_06.FBX using Guid(0ae1f14bfd70fe44c9b4708bdd0e6a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1173385665a6942c2d22ecee5814cca') in 0.029775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_22.FBX
+  artifactKey: Guid(2bf1803e278f06c48a97b89a4c16c61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_22.FBX using Guid(2bf1803e278f06c48a97b89a4c16c61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb538c47844032dabaa1eeb676a9c500') in 0.033985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_10.FBX
+  artifactKey: Guid(c725e79c6a634254983a6ebf8bb74303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_10.FBX using Guid(c725e79c6a634254983a6ebf8bb74303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb6ae052bbc71ae14287b1a2619a71b') in 0.031605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_30_g.FBX
+  artifactKey: Guid(b135ccb94c54ece4eaefacb0c5c8fff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_30_g.FBX using Guid(b135ccb94c54ece4eaefacb0c5c8fff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e18696da05bb6e2b67bb0cb1ec6457') in 0.034327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_31_f.FBX
+  artifactKey: Guid(f93ea3998ade9c84ebe0e214aaf6513c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_31_f.FBX using Guid(f93ea3998ade9c84ebe0e214aaf6513c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2aae159c8aa876d85945f4e105443d5') in 0.029894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_16.FBX
+  artifactKey: Guid(8bacce5348b36e84f8d17d9354bb9f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polylised - Medieval Desert City/Models/Civilian_Buildings/civilian_house_16.FBX using Guid(8bacce5348b36e84f8d17d9354bb9f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf238f6876be87cd68d5ee51705a9a2') in 0.033706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\AshtonAkridge\Documents\GitHub\Crypto\Game Area Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AshtonAkridge\Documents\GitHub\Crypto\Game Area Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.774 seconds
+Refreshing native plugins compatible for Editor in 4.27 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.267 seconds
+Domain Reload Profiling: 4038ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (564ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3268ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 30.77 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7817 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 203 unused Assets / (14.0 MB). Loaded Objects now: 8472.
+Memory consumption went from 296.4 MB to 282.4 MB.
+Total: 14.238100 ms (FindLiveObjects: 0.987100 ms CreateObjectMapping: 0.698800 ms MarkObjects: 6.951100 ms  DeleteObjects: 5.598400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -404,6 +404,7 @@
 "Assets/Scripts/PuzzleScripts/CaesarCipherWheel/Drag.cs"
 "Assets/Scripts/PuzzleScripts/CaesarCipherWheel/Drag2.cs"
 "Assets/Scripts/Scenes/SceneManager.cs"
+"Assets/Telelportal.cs"
 -langversion:9.0
 
 /deterministic
